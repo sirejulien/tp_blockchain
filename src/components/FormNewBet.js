@@ -27,7 +27,6 @@ class FormNewBet extends React.Component {
 
     handleSubmit(event) {
         BetCreation.createBet(this.state.arbitre,this.state.parieurA,this.state.parieurB,this.state.montant,this.state.sujet)
-        alert('formulaire envoyé');
         event.preventDefault();
       }
   

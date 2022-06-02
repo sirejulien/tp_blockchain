@@ -1,6 +1,6 @@
 # TP BLOCKCHAIN
 
-## Création d'une appli web pour faire des paris en ethereum
+## Création d'une appli web pour faire des paris en Ether
 
 Le principe de base de l'application était de créer une interface web permettant de faire des paris en Ether.
 Pour cela l'interface web demande de choisir 3 comptes metamask, un arbitre et 2 joueurs, et de donner l'objet et le montant du pari.

@@ -21,7 +21,7 @@ const ethers = require('ethers');
 
   // Deploy the contract
   const factory = new ethers.ContractFactory(metadata.abi, metadata.data.bytecode.object, wallet)
-  const contract = await factory.deploy(_arbitre,_parieurA,_parieurB,_montant,_sujet,options)
+  const contract = await factory.deploy(_arbitre,_parieurA,_parieurB,_montant,_sujet)
   await contract.deployed()
   alert(`Deployment successful! Contract Address: ${contract.address}`)
   console.log(`Deployment successful! Contract Address: ${contract.address}`)
